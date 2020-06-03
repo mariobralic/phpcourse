@@ -1,0 +1,63 @@
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course
+$ git config --global user.name "Mario"
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course
+$ git config --global user.email "mario.bralic@gmail.com"
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course
+$ git config --global push.default matching
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course
+$ git config --global alias.co checkout
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/course/.git/
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ git add .
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ git commit -am 'Initial Commit'
+[master (root-commit) 4f9f6ec] Initial Commit
+ 3 files changed, 117 insertions(+)
+ create mode 100644 StarterTemplate.html
+ create mode 100644 index.php
+ create mode 100644 navbar.php
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ cat ~.ssh/id_rsa.pub
+cat: '~.ssh/id_rsa.pub': No such file or directory
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDrq9aoszXQ/tKPQw7QVfwj2uYSpgUaPDk3+QscSmRIhJ/h8pNp1w6r1r3bgngTrmku1Z4swfXSN08mED3oSmpPtYEvtlPceSTR5aNMfpcFDdhMUmnCZLVurl9IgYK7ljDBo95TK8Q3xl0u1/cHUA28wOc0BHQ1j1h+TJGlo0UzlLy+sY3+OYNOQl6GzTfIKAufmg6ffI+6rCYjVh8fJXHlKq4TrPoTl0vGWOIWmug4n6KdVgA55og+OAr7frb0bn7oe1OYi9NMJAxsDl+frE+9xNEA98ct+rjfHjtTd9cLtTCN7XU5DA+5gm12OSNF3JMF/qDpyifgvGOGcKV7qmeMKRw7ihQ6A05PrZUS9tTNTXhDPUSlnkHd6UbJ5xdR7PhEn++aZQScxNUC/CLaLF/q1Ss7W2iMGmi0XqdIl2I4HWee0dZ71BQpZLDNPFORjBEgZiczg08ZgGZSCXUS6bni1PUzN+9PZbfhSCyoBzWYJNGD+vWcuraAjezqQL7fglE= MBralic@02TOTS02
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ git remote add origin https://github.com/mariobralic/phpcourse.git
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.70 KiB | 289.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mariobralic/phpcourse.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$
