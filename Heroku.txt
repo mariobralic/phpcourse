@@ -1,0 +1,131 @@
+nstall the Heroku CLI
+
+Download and install the Heroku CLI (https://devcenter.heroku.com/articles/heroku-command-line)
+
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+$ heroku login
+
+Clone the repository
+
+Use Git to clone va3eon's source code to your local machine.
+
+$ heroku git:clone -a va3eon
+$ cd va3eon
+
+Deploy your changes
+
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+
+
+
+
+================================================================
+MBralic@02TOTS02 MINGW64 ~
+$ hiroku create
+bash: hiroku: command not found
+
+MBralic@02TOTS02 MINGW64 ~
+$ heroku create
+Creating app... done, shrouded-lake-14880
+https://shrouded-lake-14880.herokuapp.com/ | https://git.heroku.com/shrouded-lake-14880.git
+
+MBralic@02TOTS02 MINGW64 ~
+$ ^C
+
+MBralic@02TOTS02 MINGW64 ~
+$ heroku rename va3eon
+ ┬╗   Error: Missing required flag:
+ ┬╗     -a, --app APP  app to run command against
+ ┬╗   See more help with --help
+
+MBralic@02TOTS02 MINGW64 ~
+$ pwd
+/c/Users/mbralic
+
+MBralic@02TOTS02 MINGW64 ~
+$ cd /c/xampp/htdocs/course/
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ heroku rename va3eon
+ ┬╗   Error: Missing required flag:
+ ┬╗     -a, --app APP  app to run command against
+ ┬╗   See more help with --help
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ heroku create
+Creating app... done, stormy-spire-57232
+https://stormy-spire-57232.herokuapp.com/ | https://git.heroku.com/stormy-spire-57232.git
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ ^C
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ heroku rename va3eon
+Renaming stormy-spire-57232 to va3eon... done
+https://va3eon.herokuapp.com/ | https://git.heroku.com/va3eon.git
+Git remote heroku updated
+ !    Don't forget to update git remotes for all other local checkouts of the
+ !    app.
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$ git push heroku master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 3.10 KiB | 794.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> PHP app detected
+remote:
+remote:  !     WARNING: No 'composer.json' found!
+remote:  !
+remote:  !     Your project only contains an 'index.php', no 'composer.json'.
+remote:  !
+remote:  !     Using 'index.php' to declare app type as PHP is deprecated and
+remote:  !     may lead to unexpected behavior.
+remote:  !
+remote:  !     Please consider updating your codebase to utilize Composer and
+remote:  !     modern dependency management in order to benefit from the latest
+remote:  !     PHP runtimes and improved application performance, as well as
+remote:  !     control over the PHP versions and extensions available.
+remote:  !
+remote:  !     For an introduction to dependency management with Composer and
+remote:  !     how to get the most out of PHP on Heroku, refer to the docs at
+remote:  !     https://getcomposer.org/doc/00-intro.md and
+remote:  !     https://devcenter.heroku.com/articles/getting-started-with-php
+remote:
+remote: -----> Bootstrapping...
+remote: -----> Installing platform packages...
+remote:        NOTICE: No runtime required in composer.lock; using PHP ^7.0.0
+remote:        - php (7.4.6)
+remote:        - apache (2.4.43)
+remote:        - nginx (1.18.0)
+remote: -----> Installing dependencies...
+remote:        Composer version 1.10.6 2020-05-06 10:28:10
+remote: -----> Preparing runtime environment...
+remote:        NOTICE: No Procfile, using 'web: heroku-php-apache2'.
+remote: -----> Checking for additional extensions to install...
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 14.1M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://va3eon.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/va3eon.git
+ * [new branch]      master -> master
+
+MBralic@02TOTS02 MINGW64 /c/xampp/htdocs/course (master)
+$
